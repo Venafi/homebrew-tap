@@ -18,6 +18,6 @@ class Sigscan < Formula
   end
 
   test do
-    sytem "false"
+    system "false"
   end
 end
