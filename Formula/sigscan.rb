@@ -2,7 +2,7 @@ class Sigscan < Formula
   desc "Inspect container images and other artifacts for signatures"
   homepage "https://github.com/venafi/sigscan"
   url "https://github.com/venafi/sigscan/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "526e2b78b327cffd3d43407c981e0ba961fc21d2f7dfb1d202a9eb175dfe5880"
+  sha256 "626e2b78b327cffd3d43407c981e0ba961fc21d2f7dfb1d202a9eb175dfe5880"
   license "Apache-2.0"
   head "https://github.com/venafi/sigscan.git", branch: "main"
 
