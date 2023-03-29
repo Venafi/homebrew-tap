@@ -18,6 +18,7 @@ class Sigscan < Formula
   end
 
   test do
+    # TODO
     sytem "false"
   end
 end
