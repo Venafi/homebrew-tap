@@ -9,7 +9,7 @@ class Sigscan < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Venafi/sigscan/releases/download/v#{version}/sigscan-darwin-amd64"
-      sh256 "6365128a172eb19053eee81d274724e96a29640a9366230e90213183f551e93b"
+      sha256 "6365128a172eb19053eee81d274724e96a29640a9366230e90213183f551e93b"
     end
 
     if Hardware::CPU.arm?
@@ -21,7 +21,7 @@ class Sigscan < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Venafi/sigscan/releases/download/v#{version}/sigscan-linux-amd64"
-      sh256 "53c84ff2888f509477cafd903402f8afe51c81912afc451b26bfba42e9107264"
+      sha256 "53c84ff2888f509477cafd903402f8afe51c81912afc451b26bfba42e9107264"
     end
 
     if Hardware::CPU.arm?
