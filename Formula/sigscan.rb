@@ -37,6 +37,6 @@ class Sigscan < Formula
   end
 
   test do
-    system "#{bin}/sigscan", "version"
+    system "#{bin}/sigscan", "-h"
   end
 end
