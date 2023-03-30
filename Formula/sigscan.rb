@@ -6,12 +6,6 @@ class Sigscan < Formula
   license "Apache-2.0"
   head "https://github.com/venafi/sigscan.git", tag: "v0.2.0"
 
-  bottle do
-    root_url "https://github.com/Venafi/homebrew-tap/releases/download/sigscan-0.2.0"
-    sha256 cellar: :any_skip_relocation, monterey:     "efb3ee05e85c422694d391818687e704fbed6da8dc9926d1eaa5dd6941c89e46"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "7cdeaf6bc8f1e05d389d7e19821aa65f5efac489bb55905a5bd4ba452feafe02"
-  end
-
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Venafi/sigscan/releases/download/v#{version}/sigscan-darwin-amd64"
