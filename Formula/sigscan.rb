@@ -37,6 +37,7 @@ class Sigscan < Formula
   end
 
   test do
+    # Validate install
     system "#{bin}/sigscan", "version"
   end
 end
