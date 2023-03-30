@@ -2,9 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install venafi/venafi/<formula>`
+`brew install venafi/tap/<formula>`
 
-Or `brew tap venafi/venafi` and then `brew install <formula>`.
+Or `brew tap venafi/tap` and then `brew install <formula>`.
+
+## Formulae
+
+| Repository | Formula | Description |
+| ---------- | ------- | ----------- |
+| [sigscan](https://github.com/venafi/sigscan) | [formula](Formula/sigscan.rb) | Inspect container images and other artifacts for signatures |
 
 ## Documentation
 
