@@ -21,7 +21,7 @@ class VSign < Formula
     end
   
     def install
-      cpu = Hardware::CPU.intel? ? "amd64"
+      cpu = Hardware::CPU.intel? ? "amd64" : "amd64"
       os = OS.mac? ? "darwin" : "linux"
       bin.install "vsign-#{os}-#{cpu}" => "vsign"
     end
