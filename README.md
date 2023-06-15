@@ -10,6 +10,7 @@ Or `brew tap venafi/tap` and then `brew install <formula>`.
 
 | Repository | Formula | Description |
 | ---------- | ------- | ----------- |
+| [vcert](https://github.com/venafi/vcert) | [formula](Formula/vcert.rb) | Venafi Machine Identity Services Golang CLI and SDK |
 | [sigscan](https://github.com/venafi/sigscan) | [formula](Formula/sigscan.rb) | Inspect container images and other artifacts for signatures |
 | [vsign](https://github.com/venafi/vsign) | [formula](Formula/vsign.rb) | Venafi CodeSign Protect Golang CLI and SDK |
 
