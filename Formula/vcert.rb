@@ -32,8 +32,8 @@ class Vcert < Formula
   end
 
   def install
-    bin.install "vcert" if OS.mac? && Hardware::CPU.intel?  
-    bin.install "vcert_arm" => "vcert" if OS.mac? && Hardware::CPU.arm?  
+    bin.install "vcert" if OS.mac? && Hardware::CPU.intel?
+    bin.install "vcert_arm" => "vcert" if OS.mac? && Hardware::CPU.arm?
     bin.install "vcert86" => "vcert" if OS.linux? && Hardware::CPU.intel? && Hardware::CPU.is_32_bit?
     bin.install "vcert" if OS.linux? && Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
     bin.install "vcert_arm" => "vcert" if OS.linux? && Hardware::CPU.arm?
