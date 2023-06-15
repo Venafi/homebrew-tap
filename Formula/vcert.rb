@@ -41,4 +41,3 @@ class Vcert < Formula
     system "#{bin}/vcert", "--version"
   end
 end
-  
