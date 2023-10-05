@@ -1,22 +1,22 @@
 class Vsign < Formula
   desc "Venafi CodeSign Protect Golang CLI and SDK"
   homepage "https://github.com/venafi/vsign"
-  url "https://github.com/Venafi/vsign/archive/refs/tags/v1.0.1.tar.gz"
-  version "1.0.1"
+  url "https://github.com/Venafi/vsign/archive/refs/tags/v1.0.2.tar.gz"
+  version "1.0.2"
   license "Apache-2.0"
-  head "https://github.com/venafi/vsign.git", tag: "v1.0.1"
+  head "https://github.com/venafi/vsign.git", tag: "v1.0.2"
 
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Venafi/vsign/releases/download/v#{version}/vsign-darwin-amd64"
-      sha256 "23ea8bddbd2e483c1671e96b98cb3d966d3a8f09b6e5c5a15f30b53aa53fdafe"
+      sha256 "0255718270ec4db3668de4ed4b0a48cd6cde68993469b4721b641637a2ac0505"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Venafi/vsign/releases/download/v#{version}/vsign-linux-amd64"
-      sha256 "5a6b3dec6d9883beaeab4fd7445cfc5269c45c0115da6d35964febd75187462a"
+      sha256 "0a594c3bfadc6ab8e74797087be1d26b6ede626ae94b40065b62391faf9746f9"
     end
   end
 
