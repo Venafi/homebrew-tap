@@ -1,5 +1,5 @@
 class Venctl < Formula
-  desc "The Venafi CLI serves as an alternative to the Venafi Control Plane web interface and facilitates the installation of Venafi Kubernetes components"
+  desc "Venafi CLI serves as an alternative to the Venafi Control Plane web interface"
   homepage "https://docs.venafi.cloud/vaas/venctl/c-venctl-overview"
   url "https://docs.venafi.cloud/vaas/venctl/c-venctl-releases"
   version "1.4.0"
