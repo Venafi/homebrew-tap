@@ -14,6 +14,7 @@ Or `brew tap venafi/tap` and then `brew install <formula>`.
 | [sigscan](https://github.com/venafi/sigscan) | [formula](Formula/sigscan.rb) | Inspect container images and other artifacts for signatures |
 | [vsign](https://github.com/venafi/vsign) | [formula](Formula/vsign.rb) | Venafi CodeSign Protect Golang CLI and SDK |
 | [venctl](https://docs.venafi.cloud/vaas/venctl/c-venctl-overview/) | [formula](Formula/venctl.rb) | Venafi cluster management |
+| [vssh](https://github.com/Venafi/vssh-cli) | [formula](Formula/vssh.rb) | Venafi Machine Identity Services CLI for SSH access |
 
 ## Documentation
 
