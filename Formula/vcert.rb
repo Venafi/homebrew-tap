@@ -1,33 +1,33 @@
 class Vcert < Formula
   desc "Venafi Machine Identity Services Golang CLI and SDK"
   homepage "https://github.com/Venafi/vcert"
-  url "https://github.com/Venafi/vcert/archive/refs/tags/v5.5.0.tar.gz"
+  url "https://github.com/Venafi/vcert/archive/refs/tags/v5.6.1.tar.gz"
   license "Apache-2.0"
-  head "https://github.com/venafi/vcert.git", tag: "v5.5.0"
+  head "https://github.com/venafi/vcert.git", tag: "v5.6.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Venafi/vcert/releases/download/v5.5.0/vcert_v5.5.0_darwin.zip"
-      sha256 "1f5d7f43c3a2b6631addc8dc3db9dcdfccc2179425b87f70deeb1c0862f459a6"
+      url "https://github.com/Venafi/vcert/releases/download/v5.6.1/vcert_v5.6.1_darwin.zip"
+      sha256 "4d96e2e2926ddde0f41922a5f78b85da5797050d2f81c5285b35b7be659215ab"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Venafi/vcert/releases/download/v5.5.0/vcert_v5.5.0_darwin_arm.zip"
-      sha256 "e45310ed00e5867de82c6b609acd99c637bc39911040c1200e28a13ef63f5e8e"
+      url "https://github.com/Venafi/vcert/releases/download/v5.6.1/vcert_v5.6.1_darwin_arm.zip"
+      sha256 "8f7d25cdf8874cafbd96d70c94b26b43f7a658a7505145ce25f95a4c66c930b2"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Venafi/vcert/releases/download/v5.5.0/vcert_v5.5.0_linux.zip"
-      sha256 "6d19e15cf19dff77def676a9d3fc5e3cb1c3ef5d47b9951463549b9a4a8763e5"
+      url "https://github.com/Venafi/vcert/releases/download/v5.6.1/vcert_v5.6.1_linux.zip"
+      sha256 "8a8de8357e834079a037bb943c86674eebfbd45949e67d73b97bc5704c9cf7ec"
     end
     if Hardware::CPU.intel? && Hardware::CPU.is_32_bit?
-      url "https://github.com/Venafi/vcert/releases/download/v5.5.0/vcert_v5.5.0_linux86.zip"
-      sha256 "df4062ca782f73baf0fd02a042aa5c6cdcc6c91cc99f6b4983b5be899ac7f365"
+      url "https://github.com/Venafi/vcert/releases/download/v5.6.1/vcert_v5.6.1_linux86.zip"
+      sha256 "02f377d1adb4fc956042704a36b532a1823b413f66107ff2727f07fcbf6f7b39"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Venafi/vcert/releases/download/v5.5.0/vcert_v5.5.0_linux_arm.zip"
-      sha256 "fc0de26834035a55d7b9c6632dee7c113320fb8a400b4e63b5beb1e9b5054dfd"
+      url "https://github.com/Venafi/vcert/releases/download/v5.6.1/vcert_v5.6.1_linux_arm.zip"
+      sha256 "3182dede3f3dac854d2871a09d325f89cffbc29039c58f5eca2ec8f08e25e1db"
     end
   end
 
