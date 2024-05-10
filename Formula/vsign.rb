@@ -2,9 +2,8 @@ class Vsign < Formula
   desc "Venafi CodeSign Protect Golang CLI and SDK"
   homepage "https://github.com/venafi/vsign"
   url "https://github.com/Venafi/vsign/archive/refs/tags/v1.0.2.tar.gz"
-  version "1.0.2"
+  sha256 "1be800412a20dc7258544f282c765c2dc5d17beac6dd3fb5b82bcc4fb3ef3c5f"
   license "Apache-2.0"
-  head "https://github.com/venafi/vsign.git", tag: "v1.0.2"
 
   on_macos do
     if Hardware::CPU.intel?

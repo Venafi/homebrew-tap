@@ -2,9 +2,8 @@ class Sigscan < Formula
   desc "Inspect container images and other artifacts for signatures"
   homepage "https://github.com/venafi/sigscan"
   url "https://github.com/venafi/sigscan/archive/refs/tags/v0.3.0.tar.gz"
-  version "0.3.0"
+  sha256 "29c47a8274b9452b510ea21a827ab033e2eeb01abf2abf3bcaea0319e572e8d2"
   license "Apache-2.0"
-  head "https://github.com/venafi/sigscan.git", tag: "v0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
