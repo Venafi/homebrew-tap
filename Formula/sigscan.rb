@@ -4,7 +4,7 @@ class Sigscan < Formula
   url "https://github.com/venafi/sigscan/releases"
   version "0.3.0"
   license "Apache-2.0"
-  #head "https://github.com/venafi/sigscan.git", tag: "v0.3.0"
+  # head "https://github.com/venafi/sigscan.git", tag: "v0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
