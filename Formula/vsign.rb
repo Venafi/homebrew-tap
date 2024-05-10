@@ -7,14 +7,14 @@ class Vsign < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Venafi/vsign/releases/download/v#{version}/vsign-darwin-amd64"
+      url "https://github.com/Venafi/vsign/releases/download/v1.0.2/vsign-darwin-amd64"
       sha256 "0255718270ec4db3668de4ed4b0a48cd6cde68993469b4721b641637a2ac0505"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Venafi/vsign/releases/download/v#{version}/vsign-linux-amd64"
+      url "https://github.com/Venafi/vsign/releases/download/v1.0.2/vsign-linux-amd64"
       sha256 "0a594c3bfadc6ab8e74797087be1d26b6ede626ae94b40065b62391faf9746f9"
     end
   end
