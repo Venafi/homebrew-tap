@@ -7,7 +7,6 @@ class Venctl < Formula
     if Hardware::CPU.intel?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-darwin-amd64.zip"
       sha256 "22792ed6c07277f323f148d1fccf3e2d954e7068e5d2fc26c8c386464718a3b7"
-      
     end
     if Hardware::CPU.arm?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-darwin-arm64.zip"
