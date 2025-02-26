@@ -2,26 +2,26 @@ class Venctl < Formula
   desc "Venafi CLI serves as an alternative to the Venafi Control Plane web interface"
   homepage "https://docs.venafi.cloud/vaas/venctl/c-venctl-overview"
   url "https://docs.venafi.cloud/vaas/venctl/c-venctl-releases"
-  version "1.15.4"
+  version "1.17.0"
   on_macos do
     if Hardware::CPU.intel?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-darwin-amd64.zip"
-      sha256 "260e6aefba3915fe37d3d95097b7b9f91abaa09660d6b7b6c787c06669a1643b"
+      sha256 "4ebd3a5f74c5f74697afbe5a51e0d8a53235816bb5fadfed39ca2af24934161d"
     end
     if Hardware::CPU.arm?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-darwin-arm64.zip"
-      sha256 "1decb7f144e374e77a6407f4cf207fbbc63499ebf685ee23b040c8a121bfc9a0"
+      sha256 "f953e712c544dd73fa9709ffe51a0a3c6836ad04b9a9e698bef31e440c5052d0"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-linux-amd64.zip"
-      sha256 "9e8b1d366b16d457c73ea26436f09f1fca1d0f55b4d66170fb852a64c5dc20a6"
+      sha256 "818a21581fae6820dbe4df3e0e8ed157800d70cd03ed1f443877e9f04525087d"
     end
     if Hardware::CPU.arm?
       url "https://dl.venafi.cloud/venctl/#{version}/venctl-linux-arm64.zip"
-      sha256 "20fc481faa828426e50d2e8ab12d3ed3dee7c182499cef5a2317de15758d6bdd"
+      sha256 "c3b9a2e48b55592d5a4e4d1501b107b31bd3458e7b73326b640080f767e2c44b"
     end
   end
 
