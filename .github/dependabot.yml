@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: 'bundler'
-      directory: "/Formula"
+    directory: "/Formula"
     schedule:
       interval: "weekly"
       time: "09:00"
