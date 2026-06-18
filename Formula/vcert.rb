@@ -2,6 +2,7 @@ class Vcert < Formula
   desc "Venafi Machine Identity Services Golang CLI and SDK"
   homepage "https://github.com/Venafi/vcert"
   url "https://github.com/Venafi/vcert/archive/refs/tags/v5.12.3.tar.gz"
+  sha256 "8e69e18970eee5ab9fa17ceba14b15e6752e2ecadecc65a4d924f07d6c941332"
   license "Apache-2.0"
   head "https://github.com/venafi/vcert.git", tag: "v5.12.3"
 
