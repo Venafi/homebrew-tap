@@ -2,6 +2,7 @@ class Vssh < Formula
   desc "Venafi Machine Identity Services CLI for SSH access"
   homepage "https://github.com/Venafi/vssh-cli"
   url "https://github.com/Venafi/vssh-cli/archive/refs/tags/v1.0.2023091815.tar.gz"
+  sha256 "4ba82b76635caa0cfd204693e790c5ebdc742fa5ffe2a73ca4f0b0e74ec390b7"
   license "Apache-2.0"
   head "https://github.com/venafi/vssh-cli.git", tag: "v1.0.2023091815"
 
